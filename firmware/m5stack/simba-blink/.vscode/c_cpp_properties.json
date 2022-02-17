@@ -1,0 +1,90 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "c:/Users/logic/_workspace/esp32-playlist/firmware/m5stack/simba-blink/include",
+                "c:/Users/logic/_workspace/esp32-playlist/firmware/m5stack/simba-blink/src",
+                "C:/Users/logic/.platformio/packages/framework-simba/build/nano32/gen",
+                "C:/Users/logic/.platformio/packages/framework-simba/src",
+                "C:/Users/logic/.platformio/packages/framework-simba/src/boards/nano32",
+                "C:/Users/logic/.platformio/packages/framework-simba/src/mcus/esp32",
+                "C:/Users/logic/.platformio/packages/framework-simba/3pp/esp32/inc/app_update/include",
+                "C:/Users/logic/.platformio/packages/framework-simba/3pp/esp32/inc/driver/include",
+                "C:/Users/logic/.platformio/packages/framework-simba/3pp/esp32/inc/esp32/include",
+                "C:/Users/logic/.platformio/packages/framework-simba/3pp/esp32/inc/newlib/include",
+                "C:/Users/logic/.platformio/packages/framework-simba/3pp/esp32/inc/freertos/include",
+                "C:/Users/logic/.platformio/packages/framework-simba/3pp/esp32/inc/nvs_flash/include",
+                "C:/Users/logic/.platformio/packages/framework-simba/3pp/esp32/inc/spi_flash/include",
+                "C:/Users/logic/.platformio/packages/framework-simba/3pp/esp32/inc/tcpip_adapter/include",
+                "C:/Users/logic/.platformio/packages/framework-simba/3pp/esp32/inc/lwip/include/lwip",
+                "C:/Users/logic/.platformio/packages/framework-simba/3pp/esp32/inc/lwip/include/lwip/port",
+                "C:/Users/logic/.platformio/packages/framework-simba/3pp/compat",
+                "C:/Users/logic/.platformio/packages/framework-simba/src/drivers/ports/esp32",
+                "C:/Users/logic/.platformio/packages/framework-simba/3pp/mbedtls/include",
+                "C:/Users/logic/.platformio/packages/framework-simba/src/kernel/ports/esp32/gnu",
+                "C:/Users/logic/.platformio/packages/framework-simba/src/oam/ports/esp32",
+                "C:/Users/logic/.platformio/packages/framework-simba/3pp/spiffs-0.3.5/src",
+                "C:/Users/logic/.platformio/packages/framework-simba/3pp/atto",
+                "C:/Users/logic/.platformio/packages/framework-simba/3pp/atto/curses",
+                "C:/Users/logic/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "c:/Users/logic/_workspace/esp32-playlist/firmware/m5stack/simba-blink/include",
+                    "c:/Users/logic/_workspace/esp32-playlist/firmware/m5stack/simba-blink/src",
+                    "C:/Users/logic/.platformio/packages/framework-simba/build/nano32/gen",
+                    "C:/Users/logic/.platformio/packages/framework-simba/src",
+                    "C:/Users/logic/.platformio/packages/framework-simba/src/boards/nano32",
+                    "C:/Users/logic/.platformio/packages/framework-simba/src/mcus/esp32",
+                    "C:/Users/logic/.platformio/packages/framework-simba/3pp/esp32/inc/app_update/include",
+                    "C:/Users/logic/.platformio/packages/framework-simba/3pp/esp32/inc/driver/include",
+                    "C:/Users/logic/.platformio/packages/framework-simba/3pp/esp32/inc/esp32/include",
+                    "C:/Users/logic/.platformio/packages/framework-simba/3pp/esp32/inc/newlib/include",
+                    "C:/Users/logic/.platformio/packages/framework-simba/3pp/esp32/inc/freertos/include",
+                    "C:/Users/logic/.platformio/packages/framework-simba/3pp/esp32/inc/nvs_flash/include",
+                    "C:/Users/logic/.platformio/packages/framework-simba/3pp/esp32/inc/spi_flash/include",
+                    "C:/Users/logic/.platformio/packages/framework-simba/3pp/esp32/inc/tcpip_adapter/include",
+                    "C:/Users/logic/.platformio/packages/framework-simba/3pp/esp32/inc/lwip/include/lwip",
+                    "C:/Users/logic/.platformio/packages/framework-simba/3pp/esp32/inc/lwip/include/lwip/port",
+                    "C:/Users/logic/.platformio/packages/framework-simba/3pp/compat",
+                    "C:/Users/logic/.platformio/packages/framework-simba/src/drivers/ports/esp32",
+                    "C:/Users/logic/.platformio/packages/framework-simba/3pp/mbedtls/include",
+                    "C:/Users/logic/.platformio/packages/framework-simba/src/kernel/ports/esp32/gnu",
+                    "C:/Users/logic/.platformio/packages/framework-simba/src/oam/ports/esp32",
+                    "C:/Users/logic/.platformio/packages/framework-simba/3pp/spiffs-0.3.5/src",
+                    "C:/Users/logic/.platformio/packages/framework-simba/3pp/atto",
+                    "C:/Users/logic/.platformio/packages/framework-simba/3pp/atto/curses",
+                    "C:/Users/logic/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50205",
+                "ARDUINO_NANO32",
+                "ARCH_ESP32",
+                "FAMILY_ESP32",
+                "MCU_ESP32",
+                "BOARD_NANO32",
+                "VERSION=15.0.3",
+                "MBEDTLS_USER_CONFIG_FILE=\"\"mbedtls/user_config.h\"\"",
+                ""
+            ],
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "compilerPath": "C:/Users/logic/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe",
+            "compilerArgs": [
+                "-mlongcalls",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
