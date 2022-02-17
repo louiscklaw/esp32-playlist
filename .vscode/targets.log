@@ -1,0 +1,321 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+
+# Make data base, printed on Thu Feb 17 17:05:44 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+PLATFORMIO_IDE = 2.4.2
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/logic/_workspace/esp32-playlist
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+ONEDRIVE = C:\Users\logic\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile
+MAKEFILE_LIST := 
+# environment
+TMP = C:\Users\logic\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-adabec92-7e8a-4d74-9b55-5977160af725-sock
+# environment
+VSCODE_CWD = C:\Users\logic\_workspace\esp32-playlist
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132895588347848181
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\logic
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_21044_DZDSUPUXHGPIUDXI
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = DESKTOP-P7PI8EP
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = logic
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = C:\Users\logic
+# environment
+CHOCOLATEYTOOLSLOCATION = C:\tools
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\logic\AppData\Roaming\Code\CachedData\f80445acd5a3dadef24aa209168452a3d97cc326
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-P7PI8EP
+# environment
+ONEDRIVECONSUMER = C:\Users\logic\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-P7PI8EP
+# environment
+PLATFORMIO_PATH = C:\Users\logic\.platformio\python3;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs\;C:\Users\logic\_del;C:\Users\logic\_workspace;C:\Users\logic\dotfiles\;C:\Users\logic\AppData\Roaming\Python\Python310\site-packages;C:\Users\logic\AppData\Roaming\Python\Python310\Scripts;C:\Python310;C:\Program Files\Oracle\VirtualBox;C:\Users\logic\AppData\Local\Programs\oh-my-posh\bin;C:\Users\logic\AppData\Local\Programs\oh-my-posh\themes;C:\Users\logic\AppData\Local\Microsoft\WindowsApps;C:\Users\logic\AppData\Local\GitHubDesktop\bin;C:\tools\Cmder;C:\dev\tools\gcc-arm-none-eabi-10.3-2021.10\bin;C:\dev\tools\make-3.81\bin;C:\dev\tools\openocd-0.10.0\bin;C:\dev\tools\st-link\bin;C:\Users\logic\AppData\Roaming\npm;C:\tools\msys64;;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs\;C:\Users\logic\_del;C:\Users\logic\_workspace;C:\Users\logic\dotfiles\;C:\Users\logic\AppData\Roaming\Python\Python310\site-packages;C:\Users\logic\AppData\Roaming\Python\Python310\Scripts;C:\Python310;C:\Program Files\Oracle\VirtualBox;C:\Users\logic\AppData\Local\Programs\oh-my-posh\bin;C:\Users\logic\AppData\Local\Programs\oh-my-posh\themes;C:\Users\logic\AppData\Local\Microsoft\WindowsApps;C:\Users\logic\AppData\Local\GitHubDesktop\bin;C:\tools\Cmder;C:\dev\tools\gcc-arm-none-eabi-10.3-2021.10\bin;C:\dev\tools\make-3.81\bin;C:\dev\tools\openocd-0.10.0\bin;C:\dev\tools\st-link\bin;C:\Users\logic\AppData\Roaming\npm;C:\tools\msys64;
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs\;C:\Users\logic\_del;C:\Users\logic\_workspace;C:\Users\logic\dotfiles\;C:\Users\logic\AppData\Roaming\Python\Python310\site-packages;C:\Users\logic\AppData\Roaming\Python\Python310\Scripts;C:\Python310;C:\Program Files\Oracle\VirtualBox;C:\Users\logic\AppData\Local\Programs\oh-my-posh\bin;C:\Users\logic\AppData\Local\Programs\oh-my-posh\themes;C:\Users\logic\AppData\Local\Microsoft\WindowsApps;C:\Users\logic\AppData\Local\GitHubDesktop\bin;C:\tools\Cmder;C:\dev\tools\gcc-arm-none-eabi-10.3-2021.10\bin;C:\dev\tools\make-3.81\bin;C:\dev\tools\openocd-0.10.0\bin;C:\dev\tools\st-link\bin;C:\Users\logic\AppData\Roaming\npm;C:\tools\msys64;
+# environment
+OMP_NUM_THREADS = 8
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := 
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\logic\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 70 Stepping 1, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\d99cada9deb72df642e8f6cb876c0f51-1.64.2-main-sock
+# environment
+HOMEPATH = \Users\logic
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\logic\AppData\Roaming
+# environment
+TEMP = C:\Users\logic\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 4601
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+VSCODE_PID = 21044
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-P7PI8EP
+# variable set hash-table stats:
+# Load=97/1024=9%, Rehash=0, Collisions=12/114=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Users\logic\AppData\Local\Programs\oh-my-posh\bin (key C:/Users/logic/AppData/Local/Programs/oh-my-posh/bin, mtime 1643120686): 3 files, no impossibilities.
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1644484260): 6 files, no impossibilities.
+# C:\Users\logic\AppData\Local\Programs\oh-my-posh\themes (key C:/Users/logic/AppData/Local/Programs/oh-my-posh/themes, mtime 1643120686): 82 files, no impossibilities.
+# C:\Python310 (key C:/Python310, mtime 1644306540): 19 files, no impossibilities.
+# C:\Users\logic\AppData\Local\GitHubDesktop\bin (key C:/Users/logic/AppData/Local/GitHubDesktop/bin, mtime 1643122708): 4 files, no impossibilities.
+# C:\Users\logic\_workspace (key C:/Users/logic/_workspace, mtime 1645088700): 50 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1633528646): 30 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1644401750): 170 files, no impossibilities.
+# . (key c:/Users/logic/_workspace/esp32-playlist, mtime 1645088743): 12 files, no impossibilities.
+# C:\ProgramData\chocolatey\bin (key C:/ProgramData/chocolatey/bin, mtime 1644363252): 127 files, no impossibilities.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1644990363): 13 files, no impossibilities.
+# C:\Python310\ (key C:/Python310/, mtime 1644306540): 19 files, no impossibilities.
+# C:\Users\logic\_del: could not be stat'd.
+# C:\Users\logic\AppData\Local\Microsoft\WindowsApps (key C:/Users/logic/AppData/Local/Microsoft/WindowsApps, mtime 1644950773): 13 files, no impossibilities.
+# C:\tools\Cmder (key C:/tools/Cmder, mtime 1643120063): 10 files, no impossibilities.
+# C:\Python310\Scripts\ (key C:/Python310/Scripts/, mtime 1644306540): 5 files, no impossibilities.
+# C:\Program Files\Intel\iCLS Client\ (key C:/Program Files/Intel/iCLS Client/, mtime 1643778856): 11 files, no impossibilities.
+# C:\Users\logic\AppData\Roaming\Python\Python310\Scripts (key C:/Users/logic/AppData/Roaming/Python/Python310/Scripts, mtime 1644307213): 4 files, no impossibilities.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\IPT (key C:/Program Files/Intel/Intel(R) Management Engine Components/IPT, mtime 1643778853): 5 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# C:\Program Files (x86)\Intel\iCLS Client\ (key C:/Program Files (x86)/Intel/iCLS Client/, mtime 1643778856): 8 files, no impossibilities.
+# C:\dev\tools\openocd-0.10.0\bin (key C:/dev/tools/openocd-0.10.0/bin, mtime 1485201381): 9 files, no impossibilities.
+# C:\Program Files\Microsoft VS Code\bin (key C:/Program Files/Microsoft VS Code/bin, mtime 1644569344): 4 files, no impossibilities.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files/Intel/Intel(R) Management Engine Components/DAL, mtime 1643778853): 4 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1644580281): 107 files, no impossibilities.
+# C:\dev\tools\st-link\bin (key C:/dev/tools/st-link/bin, mtime 1619304258): 6 files, no impossibilities.
+# C:\dev\tools\make-3.81\bin (key C:/dev/tools/make-3.81/bin, mtime 1644583299): 5 files, no impossibilities.
+# C:\Users\logic\AppData\Roaming\npm (key C:/Users/logic/AppData/Roaming/npm, mtime 1644990625): 9 files, no impossibilities.
+# C:\tools\msys64 (key C:/tools/msys64, mtime 1645085177): 38 files, no impossibilities.
+# C:\Program Files\Oracle\VirtualBox (key C:/Program Files/Oracle/VirtualBox, mtime 1643120568): 66 files, no impossibilities.
+# C:\Users\logic\AppData\Roaming\Python\Python310\site-packages (key C:/Users/logic/AppData/Roaming/Python/Python310/site-packages, mtime 1644307207): 4 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1643120383): 8 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1645076921): 2897 files, no impossibilities.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT, mtime 1643778853): 6 files, no impossibilities.
+# C:\dev\tools\gcc-arm-none-eabi-10.3-2021.10\bin (key C:/dev/tools/gcc-arm-none-eabi-10.3-2021.10/bin, mtime 1634526852): 35 files, no impossibilities.
+# C:\Users\logic\dotfiles\ (key C:/Users/logic/dotfiles/, mtime 1644664978): 24 files, no impossibilities.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL, mtime 1643778853): 10 files, no impossibilities.
+
+# 3823 files, no impossibilities in 37 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
+
+# Finished Make data base on Thu Feb 17 17:05:44 2022
+
+ 
+make.exe: *** No rule to make target `all'.  Stop.
+ 
