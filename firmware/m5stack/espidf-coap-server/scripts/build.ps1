@@ -1,2 +1,2 @@
 
-pio run -e briki_abc_esp32
+pio run -e esp32dev
