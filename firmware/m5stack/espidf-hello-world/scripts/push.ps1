@@ -1,6 +1,6 @@
 git add . 
 
-git commit -m"update arduino-blink,"
+git commit -m"update espidf-hello-world,"
 
 git pull
 git push
