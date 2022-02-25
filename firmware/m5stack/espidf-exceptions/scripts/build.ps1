@@ -1,2 +1,2 @@
 
-pio run -e esp32thing
+pio run -e esp32dev
