@@ -1,0 +1,5 @@
+
+
+void Foo(void)
+{
+}
